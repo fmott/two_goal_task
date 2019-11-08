@@ -4,8 +4,8 @@
 
 **Florian Ott<sup>1\*</sup>, Dimitrije Markovic<sup>1</sup>, Alexander Strobel<sup>1</sup>, Stefan J. Kiebel<sup>1</sup>**
 
-<sup>1</sup>Department of Psychology, Technische Universität Dresden, Germany 
-\* Corresponding author
+<sup>1</sup>Department of Psychology, Technische Universität Dresden, Germany\
+\* Corresponding author\
 E-Mail: florian.ott@tu-dresden.de
 
 The repository contains two main folders:
@@ -64,27 +64,27 @@ The sub-folder elbo contains elbo traces of different model variants used to com
 
 ### Code
 
-**tg_fit.py:** fits the model.\ 
-**tg_fit_split_cond.py:** fits the model separately for the the easy, medium and hard difficulty condition.\
-**tg_fit_split_phase.py:** fits the model separately for the experimental phases. \
-**tg_fit_split_seg.py:** fits the model separately for miniblock segments (trial 1-5, trial 6-10, trial 11-15).\
+**tg_fit.py:** fits the model\
+**tg_fit_split_cond.py:** fits the model separately for the the easy, medium and hard difficulty condition\
+**tg_fit_split_phase.py:** fits the model separately for the experimental phases \
+**tg_fit_split_seg.py:** fits the model separately for miniblock segments (trial 1-5, trial 6-10, trial 11-15)\
 
-**agents.py:** class *Informed*  defines the forward planning agent.\
+**agents.py:** class *Informed*  defines the forward planning agent\
 **helpers.py:** function *offer_state_mapping* defines the transition matrix\
 **inference.py:** coordinates the interaction between different modules that govern the agent's behavior\
 **simulate.py:** class *Simulato*r defines interactions between the environment and the agent\
 **tasks.py:** defines the task environment
 
 **tg_analysis.py:** calls functions to process data and generate figures 3, 4, 5, 6 and S5, S8, S12\
-**tg_simulations.py:** simulates a random agent and generates supplementary figures S6-S7; performs posterior predictive simulations generating figures S10-S11; simulates data with varying &beta; or &theta; and generates frames for movies S1-S4.\
-**tg_compare_elbo.py:** compares elbo of model variants and generates figure S9.\
+**tg_simulations.py:** simulates a random agent and generates supplementary figures S6-S7; performs posterior predictive simulations generating figures S10-S11; simulates data with varying &beta; or &theta; and generates frames for movies S1-S4\
+**tg_compare_elbo.py:** compares elbo of model variants and generates figure S9\
 **tg_offer_stats.py:** generates figures S1-S4 providing information about the offer sequence
 
 **Testing inference.ipynb:** Jupyter notebook (S1 Notebook) performing parameter recovery simulations 
 
 **tg_performance_phase_mlm.R:** linear mixed effects model testing for learning effects\
 **tg_subg_phase_mlm.R:** logistic mixed effects model testing for learning effects\
-**tg_gc_scorediff_miniblockhalf.R:** logistic regression testing for the use of a heuristic depending on miniblock half. 
+**tg_gc_scorediff_miniblockhalf.R:** logistic regression testing for the use of a heuristic depending on miniblock half 
 
 ### How-to:
 * Install [miniconda](https://conda.io/miniconda.html) for your operating system (Python version 3.7).
@@ -115,7 +115,7 @@ Note: Start spyder, jupyterlab, or jupyter notebook from the command prompt with
 ```sh
 conda install numpy pandas matplotlib seaborn statsmodels
 conda install -c conda-forge tqdm
-conda install pytorch-cpu -c pytorch
+conda install pytorch torchvision cpuonly -c pytorch # Command for Windows and Linux
 pip install pyro-ppl
 ```
 
