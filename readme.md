@@ -1,12 +1,6 @@
-# Data and code
+## Dynamic integration of forward planning and heuristic preferences during multiple goal pursuit - Analysis code and datasets
 
-## Dynamic integration of forward planning and heuristic preferences during multiple goal pursuit
-
-**Florian Ott<sup>1\*</sup>, Dimitrije Markovic<sup>1</sup>, Alexander Strobel<sup>1</sup>, Stefan J. Kiebel<sup>1</sup>**
-
-<sup>1</sup>Department of Psychology, Technische Universität Dresden, Germany\
-\* Corresponding author\
-E-Mail: florian.ott@tu-dresden.de
+**Cite:** Ott, F., Marković, D., Strobel, A., & Kiebel, S. J. (2020). Dynamic  integration of forward planning and heuristic preferences during  multiple goal pursuit. *PLoS computational biology*, *16*(2), e1007685.
 
 The repository contains two main folders:
 
